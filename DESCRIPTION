@@ -1,0 +1,14 @@
+Package: FunctionalEnrichmentAnalysis
+Title: Functional Enrichment Analysis of Shared DEGs
+Version: 0.1.0
+Authors@R: person("Your Name", email = "your.email@example.com", role = c("aut", "cre"))
+Description: Integrated functional enrichment analysis for shared DEGs between diseases, utilizing Enrichr, KEGG, and clusterProfiler.
+License: MIT + file LICENSE
+Imports:
+    httr,
+    KEGGREST,
+    clusterProfiler,
+    org.Hs.eg.db,
+    utils
+Encoding: UTF-8
+LazyData: true
